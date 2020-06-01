@@ -1,0 +1,183 @@
+.hs1{
+    display: inline-block;
+}
+.block_1{
+    background-color: rgb(70, 24, 0);
+    width: 300px;
+    height: 300px;
+    position: relative;
+    z-index: 1;
+}
+.door_1{
+    width: 80px;
+    height: 150px;
+    background-color: rgb(114, 50, 25);
+    top: -150px;
+    left: 120px;
+    z-index: 2;
+    position: relative;
+}
+.roof_1{
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid rgb(104, 65, 50);
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    z-index: 2;
+    position: relative;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.hs2{
+    display: inline-block;
+}
+.block_2{
+    background-color: rgb(29, 11, 1);
+    width: 300px;
+    height: 300px;
+
+    z-index: 1;
+    top: 148px;
+    left: 1250px;
+    position: absolute;
+}
+.door_2{
+    width: 80px;
+    height: 150px;
+    background-color: rgb(175, 98, 43);
+    top: 298px;
+    left: 1360px;
+    z-index: 2;
+    position: absolute;
+}
+.roof_2{
+    top: 48px;
+    left: 1250px;
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid rgb(92, 63, 48);
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    z-index: 2;
+    position: absolute; 
+}
+
+
+
+
+
+
+
+
+
+
+.hs3{
+    display: inline-block;
+}
+.block_3{
+    background-color: rgb(27, 14, 7);
+    width: 300px;
+    height: 300px;
+    z-index: 1;
+    position: static;
+}
+.door_3{
+    width: 80px;
+    height: 150px;
+    background-color: rgb(109, 50, 18);
+    margin-left: 110px;
+    z-index: 2;
+    position: static;
+}
+.roof_3{
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid  rgb(150, 105, 80);
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    z-index: 2;
+    position: static;
+
+}
+
+
+
+
+
+
+
+.hs4{
+    display: inline-block;
+}
+.block_4{
+    background-color:  rgb(29, 11, 1);
+    width: 300px;
+    height: 300px;
+    z-index: 1;
+    position: sticky;
+}
+.door_4{
+    width: 80px;
+    height: 150px;
+    background-color:  rgb(87, 49, 28);
+    margin-left: 110px;
+    z-index: 2;
+    position: sticky;
+}
+.roof_4{
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid  rgb(156, 109, 83);
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    z-index: 2;
+    position: sticky;
+}
+
+
+
+
+
+
+
+
+.hs5{     
+    display: inline-block;
+}
+.block_5{
+    background-color:  rgb(29, 11, 1);
+    width: 300px;
+    height: 300px;
+    top: 148px;
+    z-index: 1;
+    position: fixed;
+}
+.door_5{
+    width: 80px;
+    height: 150px;
+    background-color:  rgb(110, 56, 26);
+    top: 297px;
+    left: 1037px;
+    z-index: 2;
+    position: fixed;
+}
+.roof_5{
+    width: 0;
+    height: 0;
+    top: 48px;
+    border-bottom: 100px solid rgb(143, 100, 77);
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    z-index: 2;
+    position: fixed;
+}
